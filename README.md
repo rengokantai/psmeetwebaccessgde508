@@ -51,7 +51,7 @@ using
 <form novalidate>
 ```
 native HTML5 validation balloons != accessible
-```
+
 
 13:10 explicit label, legend and fieldset  
 in fieldset,first element must be legend
@@ -63,3 +63,26 @@ in fieldset,first element must be legend
 </label>
 </fieldset>
 ```
+15:42 error prompting
+```
+<label for="name">Name<span class="error-message">cannot be empty</span></label>
+<input name="name" required aria-invalid="true">
+```
+16:35 tabindex, aria-live never set tabindex>0  (only -1 and 0) -1= removed from natural tab order
+```
+<section id="errors" aria-live="assertive" tabindex="-1">
+</section>
+```
+
+######9
+```
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no, shrink-to-fit=no"/>
+```
+05:08  
+landmark nav  (only can use once per page)  
+- header
+- nav
+- main
+- footer
+- aside  
+
