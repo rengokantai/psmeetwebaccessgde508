@@ -141,6 +141,16 @@ use div and span to replace table layout
   <th scope="col"></th>
 </tr>
 ```
+
+######14
+01:23  
+Anyembedded media using <iframe> should have a label via the title attribute
+######15
+00:34  
+For icon,we need to add text or else readers cannot recognize.
+```
+<span class="icon icon-chrome"><span class="hidden">chrome</span></span>
+```
 ######23
 ```
 aria-hidden="true"
