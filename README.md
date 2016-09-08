@@ -135,3 +135,13 @@ use div and span to replace table layout
   </div>
 </div>
 ```
+04:40 scope
+```
+<tr>
+  <th scope="col"></th>
+</tr>
+```
+######23
+```
+aria-hidden="true"
+```
