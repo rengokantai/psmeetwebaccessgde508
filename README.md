@@ -79,10 +79,47 @@ in fieldset,first element must be legend
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no, shrink-to-fit=no"/>
 ```
 05:08  
-landmark nav  (only can use once per page)  
+landmark nav  (main can use once per page)  
 - header
 - nav
 - main
 - footer
 - aside  
 
+06:20  
+aria-label
+```
+aria-label="site"
+aria-label="page"
+```
+
+######10
+Visually hidden text(only readers can show)
+```
+sr-only: bootstrap
+show-for-sr:foundation
+```
+pure css
+```
+.hidden{
+  border:0;
+  clip:rect(1px,1px,1px,1px);
+  height:1px;
+  overflow:hidden;
+  padding:0;
+  positionLabsolute;
+  width:1px;
+}
+```
+
+09:14  skip link css
+```
+.skip{
+  left:100%;
+  position:absolute;
+}
+.skip:focus{
+//show link
+left:50%;
+}
+```
