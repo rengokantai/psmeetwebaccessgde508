@@ -151,6 +151,21 @@ For icon,we need to add text or else readers cannot recognize.
 ```
 <span class="icon icon-chrome"><span class="hidden">chrome</span></span>
 ```
+
+######17
+Accessible SVG  
+- add role="img"
+- use the <title>
+- use aira-labelledby referening <title>  
+
+example
+```
+<svg role="img" aria-labelledby="ke">
+  <title id="ke">ke</title>
+</svg>
+```
+
+
 ######23
 ```
 aria-hidden="true"
