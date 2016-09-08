@@ -123,3 +123,15 @@ pure css
 left:50%;
 }
 ```
+######11 Forms table
+use div and span to replace table layout
+```
+<div class="prod">
+  <div class="row top">
+    <span>top</span>
+  </div>
+  <div class="row">
+    <span>content</span>
+  </div>
+</div>
+```
